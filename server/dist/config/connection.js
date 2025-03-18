@@ -1,6 +1,7 @@
 import dotenv from 'dotenv';
 dotenv.config();
 import mongoose from 'mongoose';
+// MONGODB_URI is the environment variable that holds the connection string.
 const MONGODB_URI = process.env.MONGODB_URI || '';
 const db = async () => {
     try {
