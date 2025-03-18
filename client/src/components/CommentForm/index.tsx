@@ -11,6 +11,7 @@ const CommentForm = ({ thoughtId }: any) => {
 
   const handleFormSubmit = async (event: FormEvent) => {
     event.preventDefault();
+    //file to be updated
 
     try {
       await addComment({
