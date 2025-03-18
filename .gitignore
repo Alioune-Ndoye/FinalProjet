@@ -7,6 +7,7 @@
 
 # testing
 /coverage
+package-lock.json  # Added package-lock.json to ignore
 
 # production
 /build
